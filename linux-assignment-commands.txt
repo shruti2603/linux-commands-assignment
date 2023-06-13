@@ -1,0 +1,60 @@
+1.Create a new directory called linux-assignment in your home directory-
+-"mkdir ~/linux-assignment" >> ~/linux-assignment-commands.txt
+  This is the command in Linux is  used to create new directories  i.e folders
+
+2.Navigate into the linux-assignment directory-
+ -"cd ~/linux-assignment" >> ~/linux-assignment-commands.txt
+ The cd command in Linux is used to change the current working directory. It allows us to navigate to different directories within the file system
+ 
+3.Create a new file called instructions.txt-
+ -"touch instructions-txt" >> ~/linux-assignment-commands.txt
+  The touch command in Linux is used to create new files or update the timestamp of existing files.
+ 
+4.Write "Hello, World!" into instructions.txt using a command-line text editor like nano, vi, or emacs-
+ -"nano instructions.txt" >> ~/linux-assignment-commands.txt
+ -Here i used the nano command which specifies as :-The nano command is a popular command-line text editor in Linux. It provides a simple and user-friendly interface for editing files directly in the   terminal.
+
+
+ 5.Display the contents of instructions.txt using a command-
+  -"cat instructions.txt" >> ~/linux-assignment-commands.txt
+   The cat command in Linux is used to concatenate and display the contents of files. 
+
+
+6.Rename instructions.txt to greetings.txt--
+ -"mv instructions.txt greetings.txt" >> ~/linux-assignment-commands.txt
+   The mv command in Linux is used to rename files and directories. It allows us to change the name or location of a file or directory within the file system.
+ 
+ 7.Copy greetings.txt to a new file called salutations.txt-
+ -"cp greetings.txt salutations.txt" >> ~/linux-assignment-commands.txt
+  The cp command in Linux is used to copy files and directories. It allows us to create duplicates of files and directories, either in the same location or in a different location within the file     system.
+ 
+8.Delete greetings.txt-
+-"rm greetings.txt" >> ~/linux-assignment-commands.txt
+ The rm command in Linux is used to remove or delete files and directories from the file system. It allows us to delete files and directories permanently, and it can also remove directories and their  contents recursively
+
+9.Create a new directory called archive-
+ -"mkdir archive" >> ~/linux-assignment-commands.txt
+   The mkdir command in Linux is used to create new directories / folders within the file system. 
+
+10.Move salutations.txt to the archive directory-
+  - "mv salutations.txt archive/" >> ~/linux-assignment-commands.txt
+    The mv command in Linux is used to move  files and directories. It allows us to change the name or location of a file or directory within the file system.
+
+11.Display the current working directory to confirm that salutations.txt is now in the archive directory-
+  -"pwd" >> ~/linux-assignment-commands.txt
+    The pwd command in Linux is used to print the current working directory. It displays the absolute path of the directory we are currently in.
+
+12.Navigate back to the linux-assignment directory and create three new empty files named file1.txt, file2.txt, and file3.txt-
+  -"cd ~/linux-assignment" >> ~/linux-assignment-commands.txt
+    The cd command in Linux is used to change the current working directory. It allows us to navigate to different directories within the file system
+   
+
+13.Display the list of files in the linux-assignment directory to confirm the creation of the new files-
+  - "touch file1.txt file2.txt file3.txt" >> ~/linux-assignment-commands.txt
+     The touch command in Linux is used to create new files or update the timestamp of existing files.
+    
+
+14.Create a new text file in your home directory named linux-assignment-commands.txt
+  -"ls" >> ~/linux-assignment-commands.txt
+ The ls command in Linux is used to list the contents of a directory. It displays the files and directories present in the specified directory or the current working directory if no directory is specified.
+
